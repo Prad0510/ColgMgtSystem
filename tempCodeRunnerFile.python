@@ -1,0 +1,10 @@
+name = input("Enter your name: ")
+
+def numericValue(name):
+    value = 0
+    for x in name:
+        if x.isalpha():  # Ensure that only alphabetic characters are considered
+            value += ord(x.lower()) - ord('a') + 1
+    return value
+
+print("The numeric value of '{}' is {}.".format(name, numericValue(name)))
