@@ -24,9 +24,9 @@ This project was developed as part of a **group college project**.
 
 ## 📂 Project Structure
 College_Management_System/
-- college_management_system/ # Main Django project
-- main_app/ # Core app with templates and static files
-- media/ # Uploaded files (if used)
+- college_management_system/
+- main_app/ 
+- media/
 - manage.py
 - requirements.txt
 - Procfile
